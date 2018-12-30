@@ -1,0 +1,1 @@
+# A Seat at the Table: IT Leadership in the Age of Agility - Mark Schwartz
