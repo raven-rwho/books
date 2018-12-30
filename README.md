@@ -2,22 +2,13 @@
 
 This is a summary of the books that I've read and don't want to forget about
 
-## Turn the ship around - David Marquet
-This book is simply impressive. This is by far the best book about leadership which I've encountered so far. Cpt. David Marquet tells the story who he turned the submarine USS Santa Fe first last to first, by applying a pattern which he calls Leader-Leader. 
-### Control without competence means chaos
-### Do not brief, certify!
-### Think out loud
-## Rework
-The guys who founded basecamp wrote a book about thier ways of handling processes ad work life. It must be a pleasure to work at basecamp.
-### PR is not departmen
-### Hire when it hurts
-## Measure what matters
-Have you ever heard from OKR's and you wonder what it is about - go for this book. 
-## Accelerate - Nicole Forsgren, Jez Humble
-### [Westrum Organizational culture](https://continuousdelivery.com/implementing/culture)
-## A Seat at the table
-## [Flow: Living at the Peak of Your Abilities - Mihály Csíkszentmihályi](flow.md)
-## The subtle art of not giving a fuck
-## The power of habit
-## The Phoenix Project
-## Exponential Organizations
+## [Turn the ship around](ship.md)
+## [Rework](rework.md)
+## [Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs](okr.md)
+## [Accelerate](accelerate.md)
+## [A Seat at the table](seat.md)
+## [Flow: Living at the Peak of Your Abilities](flow.md)
+## [The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life](no_fuck.md)
+## [The Power of Habit: Why We Do What We Do in Life and Business - Charles Duhigg](habit.md)
+## [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](phoenix.md)
+## [Exponential Organizations: Why new organizations are ten times better, faster, and cheaper than yours (and what to do about it)](expo.md)

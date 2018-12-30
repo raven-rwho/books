@@ -17,8 +17,23 @@ Your skillset and the task must be match with each other. You know how frustrati
 
 I guess most of us know this awesome feeling when you have setted up your project in a way - with all the boilerplate that is needed to handle models, fetch data, etc - and then finally have all tools at hand that allow you to reach your goal by composing everything together. Another good example is protecting yourself with tests - so you never need to worry to you broke something else. By doing this you can reach a state of security and relaxation without any worry.
 
+5. Effortlessness:
 
+Developing runs smoothly and you always know which is the next step. From the outside it may look strenuous, yet in fact if the developer is in flow she does not experience any feel of strain. The activity is guided by an inner logic and for the dev it should feel that it has to go that way. 
+You can support this by providing rules that goes true for every story, like first you need to branch and create a PR, then you need to cover you ass with tests. Make sure that you have a flawless and easy CI build process, to make it explicitly clear how the process works.
 
-5. Effortlessness
+6. An altered perception of time:
+
+Time feel condensed, two hours feel like ten minutes or expanded - ten seconds or stretched into minutes.
+
+7. The melting together of action and consciousness
+
+Developers do not feel separated from their actions - they are one with their performance. This unity can be expanded to whole team (team flow). I have experienced this in pair programming - which is extremly strainful in the beginning. But after a while it becomes natural to work together and your partner and you will work as a union which means less errors and faster development with more joy.
+
+8. The autotelic quality of flow-experiences: IROI
+
+From Greek autos – self and telos – goal. Not only achieving the goal of an activity is rewarding but the activity in itself is fulfilling. Flow is therefore “Immediate Return on Investment”.
+
+Developing or building software must be rewarding in itself. You always should have the feeling of generating value - or at least not break someone elses code :-)
 
 
