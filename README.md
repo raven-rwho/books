@@ -16,7 +16,7 @@ Have you ever heard from OKR's and you wonder what it is about - go for this boo
 ## Accelerate - Nicole Forsgren, Jez Humble
 ### [Westrum Organizational culture](https://continuousdelivery.com/implementing/culture)
 ## A Seat at the table
-## Flow
+## [Flow: Living at the Peak of Your Abilities - Mihály Csíkszentmihályi](flow.md)
 ## The subtle art of not giving a fuck
 ## The power of habit
 ## The Phoenix Project
