@@ -17,8 +17,14 @@ Use "I intend to ..." to create leaders at every level. When we give people inst
 [Avoid Chaos Tune Control](https://www.youtube.com/watch?v=q1bpgjlBH5w&feature=youtu.be) - To avoid chaos a leader has to understand how much clarity and competence her team has about a certain topic. If clarity and competence is high but control is low, this will result in a frustrated organization. If clarity and compentence is low and control is high - this will end up in chaos. So the task is to tune the balance between the two dimensions. 
 ## Push authority to information
 In the good old days, manufacturing processes where so easy that it was possible for one person (the boss) to understand and even master them all - manufacturing lines. This has drastically changed in recent times and even more so in software development. It is crucial that the people who have the information also have the authority to make the decision. This also implies that it is necessary to shift the middle management from "a position of privilege" to one of "acountability, responsibility and work". Therefore you need to identify issues of competence and clarity - and try to fix them.
-## Do not brief, certify!
-## We learn everywhere, all the time
-## Think out loud
+## Don't brief, certify!
+Briefing, or frontal lecture, is a passice activity for everyone involved except the the briefer. There is no responsibility for preparation or study - same goes true for most meetings. A certification on the other hand is completely different. If you are not prepared, you will fail certification, which means that everyone will be prepared. If everyone passes the certification, you can be sure that everyone has understood the message of the meeting or lecture. All participants are active.
+
+One implementation of this can be short online surveys after a given lecture, which results will be presented in the next lecture. Or if it is a single occasion - just ask questions to random people in the audience - as long as you don't get an answer do not continue the lecture. It worked for me in the university :-)
+## Take deliberate action
+Prior to any action, you pause, vocalize and and gesture toward what you are about to do. This is an easy mechanic to improve the power of pair programming. The person in charge of the keyboard vocalises everything what she is about to do. This prevents mistakes, because the observer has the chance to intervere or approve the actions.
+## Specify goals, Not methods
+Provide your people with the objective and let them figure out the method. But you need to be clear on differentiating between procedures we need strict compiance (check your code in, deployments only via CI, infrastructure always as code, etc.) and procedures we want innovation on (refactoring, new frameworks, crazy ideas)
 ## Care but don't care
+Care deeply, passionately, intensely about the team and the vision: care not a lick about the bureaucratic consequences to yourself. There is study from [Google](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/) that proves, that the biggest determinant of a succesful team is the interaction between each other and not who is in the team or on which position. This means if you as a leader take all necessary steps to improve the interactions in the team - the probality for success is really high.
 ## Don't empower, emancipate
