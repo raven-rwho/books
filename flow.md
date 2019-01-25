@@ -37,3 +37,15 @@ From Greek autos – self and telos – goal. Not only achieving the goal of an 
 Developing or building software must be rewarding in itself. You always should have the feeling of generating value - or at least not break someone elses code :-)
 
 There are studies that prove that kids in the 6th grade are primed that work is tedious and having fun is meaningless! This means our society teaches us, that work has to be hard, cumbersome or boring and having fun is meaningless for reaching your goals. By changing your work in a way that you have fun with it, you normally also become more efficient. Csíkszentmihályi tells the story of a woman who has worked on a manual register. This is a boring and extremely repetitve task. By imagining that she is playing the piano on her register, she had more fun at work and she became by far the most efficient worker. Another nice example is a professor who imagines to play the piano while sitting in boring lectures. He is playing with his fingers on the table. by doing this he is able to enjoy his time while at work and is in control about his mood.
+
+## The 5 Cs
+
+1. **Clarity**: Those with complex personalities have a deep ability to retain a clear and intense realization, both as a whole and moment to moment, of their goals, real-time feedback concerning those goals, and the ability to read that feedback immediately as to their progress-or lack thereof-toward attainment of the aim.
+
+2. **Center**: The ability to center, focus, distinguish feedback from distraction, and fuel feedback while extinguishing distraction is a key feature of complexity in pursuit of flow.
+
+3. **Choice**: Of all the possible choices of action to be taken, which among them proceeds to flow? Complexity involves a continuous (if tacit) dialogue asking, “Why?” and “Why not?” The choice to accentuate flow experiences arises out of this dynamic tension.
+
+4. **Commit**: Attaining flow consistently occurs for those who can not only follow clear, centered actions that have been chosen but also have the ability to care for and commit to the course of action. They never “go through the motions,” but are instead deeply invested in the outcome.
+
+5. **Challenge**: The final characteristic of complexity is a seemingly innate ability to constantly “up the ante” in seeking further challenges and levels of attainment of more advanced goals over time. Having gotten to one level by meeting or exceeding difficult challenges, those with complex personalities then “reset the thermostat” to the next level and the next set of challenges. Or, as the saying goes: “There is no finish line-the victory is in the running!”
