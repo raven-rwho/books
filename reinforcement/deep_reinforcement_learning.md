@@ -1,6 +1,9 @@
 # Deep Reinforcement Learning Hands-On - Maxim lapan
 
 ## Chapter 1 - What is reinforcement Learning?
+RL is a third category of ML methods. It lays in the middle of supervised and unsupervised methods. By "palying" an environment and monitoring the given reward, which is often defined through a ploicy - it is able to generate the "labeled data" itself.
+As chapter 4 shows with an catpole envorinment - by feeding a neural network with the observations of "winning" episodes - RL is able to play cartpole without any implementaion/explanation of the environment!
+
 ### Reward
 
 ### Agent
