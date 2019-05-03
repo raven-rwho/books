@@ -33,4 +33,11 @@ Nice web based framework to monitor the progress of the NN training. Via [OSS](h
 4. Train on the winning episodes
 5. Repeat from step one.
 
+__Limitations of cross entropy - shown with the noisy frozenlake environment__ 
+* the training episodes have to be finite
+* the total reward need to have enough variability
+* no intermediate indication if the agent has succeeded or failed
+
+## Chapter 5 - Tabular Learning and the Bellman Equation
+
 
