@@ -50,5 +50,26 @@ __Limitations of cross entropy - shown with the noisy frozenlake environment__
 * no intermediate indication if the agent has succeeded or failed
 
 ## Chapter 5 - Tabular Learning and the Bellman Equation
+### Bellman Equation:
+
+    Principle of Optimality: An optimal policy has the property that whatever the initial state and initial decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision. (See Bellman, 1957, Chap. III.3.)
+
+The optimal value of the state is equal to the action, which gives us the max possible expected immediate reward, plus discounted long-term reward for the next state.
+
+### Value of action
+Many reinforcement learning introduce the notion of `value-function` which often denoted as V(s) . The value function represent how good is a state for an agent to be in. It is equal to expected total reward for an agent starting from state s. The value function depends on the policy by which the agent picks actions to perform.
+
+### Q - The value of action and the "Value iteration method in action".
+
+Basically Q equals the total reward we can get by executing action a in state s and can be defined via Vs. In practice this is implemented by a lookup table where we calculate the maximum expected future rewards for action at each state by using the Bellman equation:
+![Bellman Equation](./pics/bellman.png)
+It can be derived from the `value function`.
+An implementation of the FrozenLake environment is provided [here](https://github.com/raven-rwho/Deep-Reinforcement-Learning-Hands-On/blob/master/Chapter05/01_frozenlake_v_iteration.py)
+This solution is much more more efficient to solve the FrozenLake env than cross-entropy (seconds to achive 80% success vs hours to achieve 60&). The reasons for this are that cross-entropy needs longer episodes to "understand" what is the difference from elite to problematic ones. But the __major__ difference is that value iteration doesn't need full episodes to start learning. 
+
+### Q-LEarning 
+[This is the implemantion of Forzenlake via Q-Learning](https://github.com/raven-rwho/Deep-Reinforcement-Learning-Hands-On/blob/master/Chapter05/02_frozenlake_q_iteration.py). The difference to the value iteration implementation is pretty minor. We keep track in our lookup table of the values of the Q-function instead of just a state. By this we can remove __calc_action_value__ function, because we store the values already in the table. In summary both methods perform pretty much in the same way but the memory print of the Q-Learning table is 4 times bigger.
+
+# Chapter 6 - Deep Q-Networks
 
 
