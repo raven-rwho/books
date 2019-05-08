@@ -5,14 +5,25 @@ RL is a third category of ML methods. It lays in the middle of supervised and un
 As chapter 4 shows with an catpole envorinment - by feeding a neural network with the observations of "winning" episodes - RL is able to play cartpole without any implementaion/explanation of the environment!
 
 ### Reward
+It is just a scalar value , which can be positive or negative. The purpose is to tell the agent how well they have behaved
 
 ### Agent
+Somebody who interacts with the environment - like the piece of software which plays the game or trades, or....
 
 ### Environment
+Everything outside the agent - like the chess game or the stock market
 
 ### Actions
+THings that the agent can do in an environment - like the chess rules or laws that define how stocks can be traded
 
 ### Observations
+Observations are next to the rewards the second channel of information that the environments provides the agent.
+
+### Discount Factor
+The fact that the discount rate is bounded to be smaller than 1 is a mathematical trick to make an infinite sum finite. This helps proving the convergence of certain algorithms. This is relevant for the vsalue iteration method. Without it we would had to deal with an infinite sum of values delivered by certain actions.
+
+### Markov
+
 
 ## Chapter 2 - OpenAI Gym
 [Gym](https://www.openai.com) is a framework that implements all necessary parts of RL-Learning (see above). It provides hundreds of already prepared environments - from borad games over algorithmic challenges to parameter tuning and doom. 
