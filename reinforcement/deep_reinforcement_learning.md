@@ -72,4 +72,14 @@ This solution is much more more efficient to solve the FrozenLake env than cross
 
 # Chapter 6 - Deep Q-Networks
 
+This chapter will use Atari 2600 games to showcase far more complex environments, compared to 8x8 grid. If we would try to solve such an env with value iteration we would need to check 210*160 pixels in 128 colors, which equals 128^33600 -> which would need billions of years even on the fastest computer and the value iteration method would try to check all possibilites, even if they will never occur in the game.
 
+1. Initialize `Q(s,a)`with some initial approximation
+2. By interacting with the env, obtain the tuple `(s,a,r,s')`
+3. Calculate Loss `L=(Qs,a-r)^2` if episode has ended or use Bellman Eq otherwise
+4. Update `Q(s,a)` using the __stochastic gradient descent (SGD)__ algorithm, by minimizing the loss with respect to the model parameters
+5. Repeat from step 2. as until converged
+
+Due to the __ecploration vs. exploitation__ (how should we react on the env - in case of Pong random doesn't make to much sense) dilemma - the algo doesn't work to well and needs to be tweaked. One way to deal with this is __epsilon-greedy__ which means it starts with 100% random actions and decreases them over the course of training to a small epsilon, like 5% or 2%.
+## The Markov property 
+Observation from the env is all that we need to act optimally - which is unfortunately in many environments not true - i.e. if we just have one frame of pong, we have no idea about the speed of the ball. This area is called __partially observable Markov Decision Process (POMDPD)__ and one way to handle it is to keep a stack of the `N`last frames.
