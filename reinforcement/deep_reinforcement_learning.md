@@ -83,3 +83,27 @@ This chapter will use Atari 2600 games to showcase far more complex environments
 Due to the __ecploration vs. exploitation__ (how should we react on the env - in case of Pong random doesn't make to much sense) dilemma - the algo doesn't work to well and needs to be tweaked. One way to deal with this is __epsilon-greedy__ which means it starts with 100% random actions and decreases them over the course of training to a small epsilon, like 5% or 2%.
 ## The Markov property 
 Observation from the env is all that we need to act optimally - which is unfortunately in many environments not true - i.e. if we just have one frame of pong, we have no idea about the speed of the ball. This area is called __partially observable Markov Decision Process (POMDPD)__ and one way to handle it is to keep a stack of the `N`last frames.
+
+# Chapter 7 - DQN extensions
+## The PyTorch Agent Net Library
+This is a higher level library which covers the core functionalities of DQN and can be found [here](https://github.com/Shuma/ptan). It makes the implemention of a DQN algorithm much more conscise. All following examples are using this lib.
+
+__Implementations are provided for all extensions.__
+
+## N-Step DQN
+Basically a method to unravel some of the recursion steps for the Ballman Eq
+## Double DQN
+Basic DQN has a tendency to overestimate values for Q. This can be fixed by taking actions from for the next action from the trained net but take values from Q from the target net.
+## Noisy Networks
+Instead of adding random actions by the decreasing value of epsilon - add noise to the weights of the full connected layers and learn spead this noise via backpropagation
+## Prioritized replay buffer
+"Train more on data that surprises you" - instead of storing frames in a buffer - where most frames will be highly correlated and pick random distributed - assign priorities to buffer samples according to training loss. The magic here lies in keeping the balance between training on "unusual" and "normal" behaviour to not loose i.i.d. 
+## Dueling DQN
+![Dueling DQN](./pics/dueling.png)
+This extension adresses is adding an "advantage" to decisions for the agent by adding two "dueling" layers to the architecture. The advantage is a delta which shows us how much extra reward some actions from the state brings us. It can be positive or negative.
+## Categorial DQN (C51)
+This is the idea to replace the plain numbers for the values of actions with distributions. There is a nice example of commuting either by car or by train - if you just see the average time the car looks better because the average time is less - but is has also a much higher variance and it could take more than 30 minutes longer than by train. So it make sense to check the complete distribution for the agent to make the best possible decision.
+The corresponding paper showed that this method improves the convergence, but with the drawback of adding some complexity. The method should be just for complex environments - Pong is too simple.
+## Combining everything - Rainbow: Combining Improvements in Deep Reinforcement Learning
+
+
