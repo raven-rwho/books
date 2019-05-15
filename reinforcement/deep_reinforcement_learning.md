@@ -105,5 +105,20 @@ This extension adresses is adding an "advantage" to decisions for the agent by a
 This is the idea to replace the plain numbers for the values of actions with distributions. There is a nice example of commuting either by car or by train - if you just see the average time the car looks better because the average time is less - but is has also a much higher variance and it could take more than 30 minutes longer than by train. So it make sense to check the complete distribution for the agent to make the best possible decision.
 The corresponding paper showed that this method improves the convergence, but with the drawback of adding some complexity. The method should be just for complex environments - Pong is too simple.
 ## Combining everything - Rainbow: Combining Improvements in Deep Reinforcement Learning
+This converges faster for Pong than the classical DQN, but not as fast as noisy for example. It depends again on the environment.
 
+# Chapter 8 - Stock Trading - implement an own environment in Gym
+To implement an own env three things are needed: __observation__, possible __actions__, and a __reward__ system. To define these a lot of domain knowledge is necessary.
+I skiped the chapter mostly - need to check it in more detail when we want to implement an own env. 
+# Chapter 9 - Policy Gradients
+Instead of defining all steps based on the possible value, this method defines a policy which guides the direction in every step. This is helpful in environments with many actions or even an continous action space. *Value based* methods try to utilize the values to identify the policy - which has benefits and drawbacks.
+##REINFORCE
+THis method is pretty similar to the cross entropy method discussed in chapter 4
+
+1. Init the net with random weights
+2. Play `N` full episodes, saving their `(s,a,r,s')` transition
+3. For every step of every episode k, calc the discounted total reward for subsequent steps
+4. Calculate the loss function for all transitions
+5. Perform SGD update 
+6. Repeat from step 2 until converged
 
