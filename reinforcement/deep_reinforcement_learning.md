@@ -122,3 +122,18 @@ THis method is pretty similar to the cross entropy method discussed in chapter 4
 5. Perform SGD update 
 6. Repeat from step 2 until converged
 
+# Chapter 10 - Actor-Critic Method (A2C)
+The main imporvement of A2C against naive PC methods is that they reduce the variance. This is done by an architecture that splits into two NN - one that is responsible to tell us what to do (*actor*) and another one that understands how good the decisions are (*critic*). The policy network returns probability distributions of actions. The Policy Gradient method has a big problem. We are in a situation of Monte Carlo, waiting until the end of episode to calculate the reward. We may conclude that if we have a high reward (R(t)), all actions that we took were good, even if some were really bad.
+
+The Actor Critic model is a better score function. Instead of waiting until the end of the episode as we do in Monte Carlo REINFORCE, we make an update at each step (TD Learning).
+
+__So basically, the actor network learns from the feedback of the critic, you’ll update the policy and will be better at solving the task.__
+
+# Chapter 11 - Asynchronous Advantage Actor-Critic (A3C)
+To improve the stability of the __PG__ methods is to use multiple environments in parallel - this helps to provide __independent and identically distributed (i.i.d.) data__ which is critical for __Stochastic Gradient Descent (SGD)__
+There are two different ways of parallelization:
+1. Data parallelism: Several processes communicate with one central training process and provide transitions. The central process calculates the losses and performs an SGD update, which needs to be broadcasted to all other.
+2. Gradients parallelism: Several process calculate their own gradients based on training data - these gradients can be summed together to perform SGD in one process
+![data para](./pics/data_para.png)
+![grad para](./pics/gradients_para.png)
+Gradients Para is the better choice if there are many GPU across the network - if only one is used both are pretty much the same.
