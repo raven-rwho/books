@@ -137,3 +137,5 @@ There are two different ways of parallelization:
 ![data para](./pics/data_para.png)
 ![grad para](./pics/gradients_para.png)
 Gradients Para is the better choice if there are many GPU across the network - if only one is used both are pretty much the same.
+
+# Chapter 12 - Chatbot training with Deep RL
