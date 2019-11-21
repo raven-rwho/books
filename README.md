@@ -13,3 +13,4 @@ This is a summary of the books that I've read and don't want to forget about
 ## [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](phoenix.md)
 ## [Exponential Organizations: Why new organizations are ten times better, faster, and cheaper than yours (and what to do about it)](expo.md)
 ## [It doesn't have to be crazy at work](crazy.md)
+## [An elegant puzzle](an_elegant_puzzle.md)
