@@ -11,4 +11,12 @@ A good goal should consist of 4 "numbers"
 - Timeframe - bounds for the change
 An example for a good goal is: "In Q3 we decrease the time to render our frontpage from 600MS (P95) to 300 MS (P95). In Q2 render increased from 500MS to 600MS."
 
-
+## Migrations
+Migrations are essential to every tech org. If a system needs to be scaled after a while, this is just a sign that the system was planned appropriately at its beginning.
+Playbook for migrations:
+1. De-Risk
+   - Design Document start with the hardest team to evolve the design. Implement it also first in the hardest team to make sure you learn. Each team who is endorsing a migration with you they make a bet that you and your team will make that migration done.
+2. Enable
+   - Build tooling and documentation to achieve self service (incremental and reversible).
+3. Finish
+   - achieve 100% adoption - at the end this means normally that the migration team needs to do the nitty gritty clean up on the hardest cases itself
