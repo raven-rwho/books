@@ -20,3 +20,14 @@ Playbook for migrations:
    - Build tooling and documentation to achieve self service (incremental and reversible).
 3. Finish
    - achieve 100% adoption - at the end this means normally that the migration team needs to do the nitty gritty clean up on the hardest cases itself
+
+## Organizational Re-Org
+1. Validate that is the right tool
+2. project head count
+3. target ratio management to contributer
+4. Identify logical teams and groups of teams
+5. staff the teams
+6. commit to move forward
+7. roll-out the change
+
+
