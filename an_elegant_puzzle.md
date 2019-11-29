@@ -30,4 +30,10 @@ Playbook for migrations:
 6. commit to move forward
 7. roll-out the change
 
+## Controls
+1. I'll do it
+2. Preview - we are not alligned on this topic - so let me know before you do something
+3. Review - Let me know before major release
+4. Notes - Enable me to answer so that I am able to answer questions in context
+
 
