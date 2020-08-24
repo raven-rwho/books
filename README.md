@@ -14,3 +14,4 @@ This is a summary of the books that I've read and don't want to forget about
 ## [Exponential Organizations: Why new organizations are ten times better, faster, and cheaper than yours (and what to do about it)](expo.md)
 ## [It doesn't have to be crazy at work](crazy.md)
 ## [An elegant puzzle](an_elegant_puzzle.md)
+## [Leadership Is Language](leadership_is_language.md)
