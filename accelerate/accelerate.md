@@ -2,6 +2,8 @@
 
 [Westrum Organizational culture](https://continuousdelivery.com/implementing/culture)
 
+[relations between the several capabilities](transformation_practices.pdf)
+
 ## 24 Capabilities to drive improvement
 ### Continuous Delivery
 1. Use version control for all production artifacts
@@ -12,6 +14,19 @@
 6. Support test data management
 7. Shift left on security
 8. Implement CD
+#### Question git
+* Our application code is in version control system
+* Our system configurations are in version control system
+* Our application configurations are in a version control system
+* Our scripts for automating build and configuration are in a version control system
+#### Question CD && small batches
+* How often does your organization deploy code for the primary service or application you work on
+  * on demand (mutiple deploys per day)
+  * between once per hour and once per day
+  * between once per day and once per week
+  * between once per week and once per month
+  * between once per month and every six months
+  * fewer than once every six months
 ### Architecture
 9. Use a loosely coupled infrastructure
 10. Architect for empowered teams
