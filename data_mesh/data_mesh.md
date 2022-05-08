@@ -15,6 +15,7 @@ There are a bunch of different personas that are included in the data work <ToDo
 ## The four principles of Data Mesh
 ### Principle of Domain Ownership
 Decentralize the ownership of analytical data to business domains closest to the data - either the source or its main consumer.
+
 * Allows scalability - avoiding bottleneck of centralized data teams
 * Allows continuous change
 * Enabling agility by avoiding dependencies across teams
@@ -22,6 +23,7 @@ Decentralize the ownership of analytical data to business domains closest to the
 * Increases resiliency of analytics and ML
 ### Principle of Data as a product
 With this principle in place it is possible to share data as a product with data users that may come out of the domain.
+
 * Discoverable
 * Addresable
 * Understandable
@@ -32,6 +34,7 @@ With this principle in place it is possible to share data as a product with data
 * Secure
 ###Principle of the selve serve Data Platform
 The main purpose of the Selve-serve Data Platform is to empower domains cross-functional teams to share data products
+
 * it reduces the cost of decentralized data ownership
 * reduces the complexity of managing end-to-end lifecycles of data products
 * Mobilize a larger population of developers
