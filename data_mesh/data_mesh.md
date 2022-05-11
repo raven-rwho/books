@@ -11,7 +11,7 @@ There are a bunch of different personas that are included in the data work <ToDo
 * **Data Leaders or managers**
 
 ## The Shifts
-<ToDo add visual at onedrive>
+![](./images/dimensions_of_change.png)
 ## The four principles of Data Mesh
 ### Principle of Domain Ownership
 Decentralize the ownership of analytical data to business domains closest to the data - either the source or its main consumer.
