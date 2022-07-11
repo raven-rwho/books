@@ -21,48 +21,7 @@ Decentralize the ownership of analytical data to business domains closest to the
 * Enabling agility by avoiding dependencies across teams
 * Increasing business truthfulness - people that fetch and work with the data are together - increases the domain knowledge of the team working with it
 * Increases resiliency of analytics and ML
-### Principle of Data as a product
-With this principle in place it is possible to share data as a product with data users that may come out of the domain.
 
-* Discoverable
-* Addresable
-* Understandable
-* Trustworthy und truthful
-* Accessible
-* Interoperable
-* Valuable on its own
-* Secure
-###Principle of the selve serve Data Platform
-The main purpose of the Selve-serve Data Platform is to empower domains cross-functional teams to share data products
-
-* it reduces the cost of decentralized data ownership
-* reduces the complexity of managing end-to-end lifecycles of data products
-* Mobilize a larger population of developers
-* Enforces the automation of governance policies
-### Principle of Federated Computational Governance
-* Countering the undesirable consequences of domain-oriented decentralizations - enforces that data can be connected and is understandable
-* Allows to build-in cross-cutting governance such as security, privacy, legal, compliance, etc
-* Reducing the overhead of synchronization of governance teams with the data producers
-* All governance policies should be based on the fact, that the data is about to change. The policies should not try to keep everything constant but needs to embrace change in all aspects
-#### Computational Governance
-##### Standards as code
-* Data discovery - APIs that expose the discoverability information, documentation, schema and SLOs
-* Data interfaces - APIs that expose the data
-* Data and query modeling - Modeling of semantics and query language
-* Lineage
-* Polysemes identification modeling - Modeling of identity and systems that globally identify and address common business concepts across the mesh 
-##### Policies as code
-* Data privacy and protection
-* Data localization
-* Data Access Control and audit
-* Data consent
-* Data sovereignty - Preserving the ownership and its control
-* Data retention
-##### Automated Tests
-CI/CD on data to identify drifts in the assured quality - schema checks, i.e.
-##### Monitoring
-System that is capable of fetching the SLOs of data and identify drifts in quality - fetch the meta info and see if this has changed in any means
- 
   
 
 ### The Data
@@ -83,7 +42,7 @@ Data mesh shifts the responsibility to provide data with quality and integrity c
 Good products can be characterized by three different measures:
 ### Usable
 #### Discoverable
-This is the very first step. If a product can't be discovered it can't be used. In data mesh every dataset provides a standardized set of meta information to allow the automatic registration in a central registry.
+This is the very first step. If a product can’t be discovered it can’t be used. In data mesh every dataset provides a standardized set of meta information to allow the automatic registration in a central registry.
 #### Addressable
 A data product offers a permanent and unique address to allow the user or system to access it. 
 It must allow the following points:
@@ -99,3 +58,36 @@ Computational notebooks can be valid companions to better understand the data fa
 #### Trustworthy ans truthful
 
 ### Valuable
+
+###Principle of the selve serve Data Platform
+The main purpose of the Selve-serve Data Platform is to empower domains cross-functional teams to share data products
+
+* it reduces the cost of decentralized data ownership
+* reduces the complexity of managing end-to-end lifecycles of data products
+* Mobilize a larger population of developers
+* Enforces the automation of governance policies
+### Principle of Federated Computational Governance
+* Countering the undesirable consequences of domain-oriented decentralizations - enforces that data can be connected and is understandable
+* Allows to build-in cross-cutting governance such as security, privacy, legal, compliance, etc
+* Reducing the overhead of synchronization of governance teams with the data producers
+* All governance policies should be based on the fact, that the data is about to change. The policies should not try to keep everything constant but needs to embrace change in all aspects
+
+#### Computational Governance
+##### Standards as code
+* Data discovery - APIs that expose the discoverability information, documentation, schema and SLOs
+* Data interfaces - APIs that expose the data
+* Data and query modeling - Modeling of semantics and query language
+* Lineage
+* Polysemes identification modeling - Modeling of identity and systems that globally identify and address common business concepts across the mesh 
+##### Policies as code
+* Data privacy and protection
+* Data localization
+* Data Access Control and audit
+* Data consent
+* Data sovereignty - Preserving the ownership and its control
+* Data retention
+##### Automated Tests
+CI/CD on data to identify drifts in the assured quality - schema checks, i.e.
+##### Monitoring
+System that is capable of fetching the SLOs of data and identify drifts in quality - fetch the meta info and see if this has changed in any means
+ 
