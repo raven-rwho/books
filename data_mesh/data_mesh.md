@@ -43,4 +43,24 @@ The main purpose of the Selve-serve Data Platform is to empower domains cross-fu
 * Countering the undesirable consequences of domain-oriented decentralizations - enforces that data can be connected and is understandable
 * Allows to build-in cross-cutting governance such as security, privacy, legal, compliance, etc
 * Reducing the overhead of synchronization of governance teams with the data producers
+* All governance policies should be based on the fact, that the data is about to change. The policies should not try to keep everything constant but needs to embrace change in all aspects
+#### Computational Governance
+##### Standards as code
+* Data discovery - APIs that expose the discoverability information, documentation, schema and SLOs
+* Data interfaces - APIs that expose the data
+* Data and query modeling - Modeling of semantics and query language
+* Lineage
+* Polysemes identification modeling - Modeling of identity and systems that globally identify and address common business concepts across the mesh 
+##### Policies as code
+* Data privacy and protection
+* Data localization
+* Data Access Control and audit
+* Data consent
+* Data sovereignty - Preserving the ownership and its control
+* Data retention
+##### Automated Tests
+CI/CD on data to identify drifts in the assured quality - schema checks, i.e.
+##### Monitoring
+System that is capable of fetching the SLOs of data and identify drifts in quality - fetch the meta info and see if this has changed in any means
+ 
   
